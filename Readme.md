@@ -33,7 +33,7 @@ If you were authenticated, you could:
 
 ```
 $ docker build -t prasanth595/spring-boot-app-kubernetes:0.0.1-SNAPSHOT .
-$ docker push springguides/demo
+$ docker push prasanth595/spring-boot-app-kubernetes:0.0.1-SNAPSHOT
 ```
 
 In real life, the image needs to be pushed to Dockerhub (or some other accessible repository) because Kubernetes pulls the image from inside its Kubelets (nodes), which are not usually connected to the local docker daemon.
