@@ -1,4 +1,4 @@
-== Containerize the Application
+## Containerize the Application
 
 There are multiple options for containerizing a Spring Boot application.
 As long as you are already building a Spring Boot jar file, you only need to call the plugin directly.
@@ -41,7 +41,7 @@ For the purposes of this scenario, you can omit the push and use the image that 
 
 NOTE: For testing, there are workarounds that make `docker push` work with an insecure local registry (for instance) but that is out of scope for this guide.
 
-== Deploy the Application to Kubernetes
+## Deploy the Application to Kubernetes
 
 Now you have a container that runs and exposes port 8080, so all you need to make Kubernetes run it is some YAML.
 To avoid having to look at or edit YAML, for now, you can ask `kubectl` to generate it for you.
