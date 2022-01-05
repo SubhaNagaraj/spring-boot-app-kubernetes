@@ -4,6 +4,7 @@ There are multiple options for containerizing a Spring Boot application.
 As long as you are already building a Spring Boot jar file, you only need to call the plugin directly.
 The following command uses https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/maven-plugin/html/#build-image[Maven]:
 
+
 ```
 $ ./mvnw spring-boot:build-image
 ```
