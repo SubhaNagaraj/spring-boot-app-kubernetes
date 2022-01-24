@@ -18,8 +18,8 @@ spec:
         app: demo
     spec:
       containers:
-      - image: prasanth595/spring-boot-app-kubernetes:0.0.1-SNAPSHOT
-        name: spring-boot-app-kubernetes
+      - image: subha6867/springboot:latest
+        name: springboot
         resources: {}
 status: {}
 --- 
